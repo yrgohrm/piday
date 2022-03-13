@@ -3,6 +3,7 @@ import java.math.BigInteger;
 public class PiDay {
     // Calculate PI until interrupted
     // Based on Jeremy Gibbons unbounded Spigot algorithm
+    // Adapted from code found at https://rosettacode.org/, licensed under GFDL 1.2
     public static void main(String[] args) {
         final BigInteger two = BigInteger.TWO;
         final BigInteger three = BigInteger.valueOf(3);
